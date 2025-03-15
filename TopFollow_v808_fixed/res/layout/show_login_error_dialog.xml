@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_40sdp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/_14sdp" app:cardElevation="0.0dip" app:cardMaxElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_20sdp" android:layout_marginTop="@dimen/_22sdp" android:layout_marginRight="@dimen/_20sdp" android:text="Forgotten Password" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/gray5" android:gravity="center" android:id="@id/description_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_25sdp" android:layout_marginTop="@dimen/_8sdp" android:layout_marginRight="@dimen/_25sdp" android:layout_marginBottom="@dimen/_25sdp" android:text="The password you enteried is incorrect.\nPlease try again" />
+        <View android:background="#ffe2e2e2" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/blue2" android:gravity="center" android:id="@id/btn_tv" android:paddingTop="@dimen/_11sdp" android:paddingBottom="@dimen/_11sdp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Try Again" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

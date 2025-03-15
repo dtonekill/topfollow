@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_more" android:title="@string/more" />
+    <item android:icon="@drawable/ic_followers" android:id="@id/navigation_follow_item" android:title="@string/followers_" />
+    <item android:icon="@drawable/ic_likes" android:id="@id/navigation_likes_item" android:title="@string/posts" />
+    <item android:icon="@drawable/ic_tasks" android:id="@id/navigation_tasks_item" android:title="@string/tasks" />
+</menu>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_5sdp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/_6sdp" app:cardElevation="@dimen/_2sdp" app:cardMaxElevation="@dimen/_2sdp" style="@style/ShadowCardViewNonRadios"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:theme="@style/RippleColorThemePrimary" android:gravity="center" android:orientation="horizontal" android:id="@id/install_bt" android:background="?selectableItemBackground" android:padding="@dimen/_7sdp" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon_iv" android:layout_width="@dimen/_36sdp" android:layout_height="@dimen/_36sdp" />
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/_6sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_12sdp" android:textStyle="bold" android:textColor="@color/gray8" android:id="@id/app_name_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="App Name" style="@style/TextViewFontBold" />
+            <com.google.android.material.textview.MaterialTextView android:textColor="@color/gray3" android:id="@id/app_description_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="App Description" />
+        </LinearLayout>
+        <com.google.android.material.card.MaterialCardView android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="#ffe9e2f3" app:cardCornerRadius="@dimen/_20sdp" app:cardElevation="0.0dip" app:cardMaxElevation="0.0dip">
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/app_bg" android:paddingLeft="@dimen/_12sdp" android:paddingTop="@dimen/_8sdp" android:paddingRight="@dimen/_12sdp" android:paddingBottom="@dimen/_8sdp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_12sdp" android:textStyle="bold" android:textColor="@color/coin" android:id="@id/gift_coin_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_4sdp" android:layout_marginTop="2.0dip" android:layout_marginRight="@dimen/_4sdp" android:layout_marginBottom="2.0dip" android:text="00" />
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/_16sdp" android:layout_height="@dimen/_16sdp" app:srcCompat="@drawable/ic_coin" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

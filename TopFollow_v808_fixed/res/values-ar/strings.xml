@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">التوجه إلى المنزل</string>
+    <string name="abc_action_bar_up_description">التنقل إلى أعلى</string>
+    <string name="abc_action_menu_overflow_description">خيارات أكثر</string>
+    <string name="abc_action_mode_done">تم</string>
+    <string name="abc_activity_chooser_view_see_all">عرض الكل</string>
+    <string name="abc_activitychooserview_choose_application">اختيار تطبيق</string>
+    <string name="abc_capital_off">إيقاف</string>
+    <string name="abc_capital_on">مفعّلة</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">حذف</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">فضاء</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">القائمة+</string>
+    <string name="abc_search_hint">بحث…</string>
+    <string name="abc_searchview_description_clear">محو طلب البحث</string>
+    <string name="abc_searchview_description_query">طلب بحث</string>
+    <string name="abc_searchview_description_search">البحث</string>
+    <string name="abc_searchview_description_submit">إرسال طلب البحث</string>
+    <string name="abc_searchview_description_voice">بحث صوتي</string>
+    <string name="abc_shareactionprovider_share_with">مشاركة مع</string>
+    <string name="abc_shareactionprovider_share_with_application">مشاركة مع %s</string>
+    <string name="abc_toolbar_collapse_description">تصغير</string>
+    <string name="accept">قبول</string>
+    <string name="account_upgrated">تم ترقية حسابك بنجاح.</string>
+    <string name="accounts">الحسابات</string>
+    <string name="activate">تفعيل</string>
+    <string name="activate_coupon">تفعيل القسيمة</string>
+    <string name="add_a_photo_to_your_instagram_profile">أضف صورة إلى ملفك الشخصي على Instagram</string>
+    <string name="add_account">إضافة حساب</string>
+    <string name="add_bio_to_instagram">أضف السيرة الذاتية إلى Instagram</string>
+    <string name="allow">السماح</string>
+    <string name="anti_ban">مكافحة الحظر</string>
+    <string name="app_name">TopFollow</string>
+    <string name="authentication">خطأ في المصادقة!</string>
+    <string name="authentication2">خطأ في المصادقة</string>
+    <string name="authentication_des">يتطلب حساب Instagram الخاص بك المصادقة&lt;br>لحل هذه المشكلة، سجّل الدخول إلى حسابك أولاً عبر الويب أو تطبيق Instagram الرئيسي، ثم حاول استخدام Top Follow</string>
+    <string name="authentication_passed">"تم إجراء المصادقة.
+يرجى بدء المهمة مرة أخرى."</string>
+    <string name="authentication_phone">مصادقة رقم الهاتف</string>
+    <string name="auto_login">تسجيل الدخول التلقائي</string>
+    <string name="back">رجوع</string>
+    <string name="back_login_des">هل تريد العودة؟</string>
+    <string name="bio_added_successfully">تم إضافة السيرة الذاتية بنجاح</string>
+    <string name="bio_warning">يجب عليك إكمال سيرتك الذاتية على Instagram!</string>
+    <string name="bottomsheet_action_collapse">تصغير البطاقة السفلية</string>
+    <string name="bottomsheet_action_expand">توسيع البطاقة السفلية</string>
+    <string name="bottomsheet_action_expand_halfway">توسيع البطاقة السفلية</string>
+    <string name="bottomsheet_drag_handle_clicked">تم النقر مرّتين على مقبض السحب.</string>
+    <string name="bottomsheet_drag_handle_content_description">مقبض السحب</string>
+    <string name="buy">شراء</string>
+    <string name="buy_followers">شراء المتابعين</string>
+    <string name="buy_followers_likes">شراء المتابعين والإعجابات</string>
+    <string name="buy_instagram_follower">شراء متابعي Instagram</string>
+    <string name="buy_threads_follower">شراء متابعي Threads</string>
+    <string name="call_notification_answer_action">ردّ</string>
+    <string name="call_notification_answer_video_action">فيديو</string>
+    <string name="call_notification_decline_action">رفض</string>
+    <string name="call_notification_hang_up_action">قطع الاتصال</string>
+    <string name="call_notification_incoming_text">مكالمة واردة</string>
+    <string name="call_notification_ongoing_text">مكالمة جارية</string>
+    <string name="call_notification_screening_text">يتم فحص المكالمة الواردة</string>
+    <string name="cancel">تم إلغاؤه</string>
+    <string name="cancel_st">إلغاء</string>
+    <string name="character_counter_content_description">تمّ إدخال %1$d حرف من إجمالي %2$d.</string>
+    <string name="character_counter_overflowed_content_description">تجاوز عدد الأحرف المسموح به %1$d من %2$d.</string>
+    <string name="check_in">التسجيل</string>
+    <string name="choose_your_request_type">اختر نوع طلبك</string>
+    <string name="clear_text_end_icon_content_description">محو النص</string>
+    <string name="codes">الرموز</string>
+    <string name="coin_added_successfully">تمت إضافة العملة بنجاح.</string>
+    <string name="comment_order">ترتيب التعليق</string>
+    <string name="comments_for">التعليقات</string>
+    <string name="comments_was_ordered">تم طلب التعليقات.</string>
+    <string name="common_google_play_services_enable_button">تفعيل</string>
+    <string name="common_google_play_services_enable_text">‏لن يعمل %1$s ما لم يتم تفعيل خدمات Google Play.</string>
+    <string name="common_google_play_services_enable_title">‏تفعيل خدمات Google Play</string>
+    <string name="common_google_play_services_install_button">تثبيت</string>
+    <string name="common_google_play_services_install_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play، والتي لا تتوفر على جهازك.</string>
+    <string name="common_google_play_services_install_title">‏الحصول على خدمات Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">‏مدى توفّر خدمات Google Play</string>
+    <string name="common_google_play_services_notification_ticker">‏خطأ في خدمات Google Play</string>
+    <string name="common_google_play_services_unknown_issue">‏لدى %1$s مشكلة في خدمات Google Play. يُرجى إعادة المحاولة.</string>
+    <string name="common_google_play_services_unsupported_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play التي لا يوفرها جهازك.</string>
+    <string name="common_google_play_services_update_button">تحديث</string>
+    <string name="common_google_play_services_update_text">‏لن يتم تشغيل %1$s ما لم يتم تحديث خدمات Google Play.</string>
+    <string name="common_google_play_services_update_title">‏تحديث خدمات Google Play</string>
+    <string name="common_google_play_services_updating_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play، والتي يتم تحديثها حاليًا.</string>
+    <string name="common_google_play_services_wear_update_text">‏يجب توفر إصدار جديد من خدمات Google Play. سيتم تحديثها تلقائيًا قريبًا.</string>
+    <string name="common_open_on_phone">فتح على الهاتف</string>
+    <string name="common_signin_button_text">تسجل الدخول</string>
+    <string name="common_signin_button_text_long">‏تسجيل الدخول عبر Google</string>
+    <string name="complete">مكتمل</string>
+    <string name="connection">اتصال!</string>
+    <string name="coupon_copied_to_clipboard">تم نسخ القسيمة إلى الحافظة.</string>
+    <string name="coupon_not_valid">القسيمة غير صالحة!</string>
+    <string name="coupon_submmited_successfully">تم تسجيل القسيمة بنجاح.</string>
+    <string name="coupons">القسائم</string>
+    <string name="create">إنشاء</string>
+    <string name="create_new_coupon">إنشاء قسيمة جديدة</string>
+    <string name="crystal_left">الكريستال المتبقي</string>
+    <string name="crystals_earned_from_referrals">الكريستالات المكتسبة من الإحالات</string>
+    <string name="daily_bonus">المكافأة اليومية</string>
+    <string name="delete">حذف</string>
+    <string name="delete_warning">تحذير الحذف</string>
+    <string name="do_you_want">هل تريد حذف الحساب</string>
+    <string name="do_you_want_2">؟</string>
+    <string name="done">تم</string>
+    <string name="download_new_version">تحديث التطبيق</string>
+    <string name="earn_coins">اربح عملات</string>
+    <string name="enter_coupon_crystals">أدخل بلورات القسيمة</string>
+    <string name="enter_question_1">هل تريد تسجيل الدخول إلى حساب</string>
+    <string name="enter_question_2">؟</string>
+    <string name="enter_target_link">أدخل رابط المشاركة المستهدفة</string>
+    <string name="enter_target_username">أدخل اسم المستخدم المستهدف</string>
+    <string name="enter_your_comment_text">أدخل نص تعليقك</string>
+    <string name="error">خطأ!</string>
+    <string name="error2">خطأ</string>
+    <string name="error_icon_content_description">خطأ</string>
+    <string name="exposed_dropdown_menu_content_description">عرض القائمة المنسدلة</string>
+    <string name="flag_description">"عزيزي المستخدم&lt;br>خيار العلم نشط لحسابك.&lt;br>تجعل هذه الميزة في Instagram متابعيك الجدد بحاجة إلى التأكيد وتجعل عدد متابعيك يبدو أقل من العدد الفعلي بعد إكمال الطلب.&lt;br>لإبلاغك بذلك، يرجى الاتصال بنا. لإصلاح هذه المشكلة، انتقل إلى &lt;b>الإعدادات -> متابعة ودعوة الأصدقاء&lt;/b> أو قسم آخر &lt;b>الإعدادات -> المتابعون وجهات الاتصال&lt;/b>
+وإلغاء تحديد قسم &lt;b>الإبلاغ للمراجعة&lt;/b>."</string>
+    <string name="flag_warning">تحذير!</string>
+    <string name="followers_">المتابعون</string>
+    <string name="followers_was_ordered">تم طلب المتابعين</string>
+    <string name="free_coins">عملات مجانية</string>
+    <string name="frequently_asked_questions">الأسئلة الشائعة</string>
+    <string name="gem_not_valid">يجب أن يكون الحد الأدنى لعدد البلورات 500!</string>
+    <string name="gen_not_enough">عدد البلورات لديك غير كافٍ!</string>
+    <string name="get">الحصول عليها</string>
+    <string name="go_to_app">تجاهل</string>
+    <string name="go_to_app2">انتقل إلى التطبيق</string>
+    <string name="here_is_empty">هنا فارغ...</string>
+    <string name="history">التاريخ</string>
+    <string name="how_to_get_crystals">كيفية الحصول على البلورات</string>
+    <string name="icon_content_description">رمز مربع الحوار</string>
+    <string name="inprogress">قيد التقدم</string>
+    <string name="instagram_follower">متابع Instagram</string>
+    <string name="instagram_followers_for">متابعي Instagram</string>
+    <string name="instagram_login_expired">انتهت صلاحية تسجيل الدخول الخاص بك على Instagram. يرجى تسجيل الدخول إلى حساب Instagram الخاص بك مرة أخرى</string>
+    <string name="instagram_server_error">تعذر الاتصال بخادم Instagram. يُرجى التحقق من اتصال الإنترنت لديك وإعادة المحاولة</string>
+    <string name="instagram_upload_error">فشل تحميل Instagram!</string>
+    <string name="instagram_will_send_the_security_code_to_your_number">سيرسل Instagram رمز الأمان إلى رقمك</string>
+    <string name="install_apps">تثبيت التطبيقات</string>
+    <string name="invite_code_submited">تم تسجيل رمز الدعوة بنجاح.</string>
+    <string name="invite_des_1">سيحصل صديقك على &lt;b>+200💰&lt;/b> عملة</string>
+    <string name="invite_des_2">ستحصل على &lt;b>%10💎&lt;/b> من العملات التي ينفقها صديقك لكل طلب</string>
+    <string name="invite_message_1">⚡ متابعون مجانيون على Instagram وإعجابات وتعليقات ومشاهدات قصص</string>
+    <string name="invite_message_2">✅ قم بتنزيل أعلى متابعة مجانية:</string>
+    <string name="invite_message_3">🎁 اكتب هذا الرمز للحصول على 200 عملة إضافية:</string>
+    <string name="item_view_role_description">علامة تبويب</string>
+    <string name="like_order">ترتيب الإعجاب</string>
+    <string name="likes_for">إعجابات</string>
+    <string name="likes_was_ordered">تم طلب الإعجابات.</string>
+    <string name="limit_des">تم تقييد حسابك بواسطة Instagram&lt;br>&lt;b>هذا التقييد من Instagram وليس من البرنامج&lt;/b>&lt;br>&lt;br>يرجى تسجيل الدخول إلى حسابك مرة أخرى&lt;br>إذا لم يتم حل المشكلة، فحاول مرة أخرى بعد بضع ساعات.</string>
+    <string name="loading">جارٍ التحميل...</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="login_">تسجيل الدخول</string>
+    <string name="login_again">تسجيل الدخول مرة أخرى</string>
+    <string name="login_by_web">تسجيل الدخول عبر الويب</string>
+    <string name="login_expired">انتهت صلاحية تسجيل الدخول!</string>
+    <string name="login_expired2">انتهت صلاحية تسجيل الدخول لـ</string>
+    <string name="mandatory_media_des">"عزيزي المستخدم، لمواصلة نشاطك في المتابعة الأعلى، يجب أن يكون لديك 2 منشورات على الأقل على Instagram.
+يرجى فتح Instagram ونشر 2 منشورات في حسابك."</string>
+    <string name="manual_login">تسجيل الدخول اليدوي</string>
+    <string name="material_clock_toggle_content_description">يُرجى اختيار صباحًا أو مساءً.</string>
+    <string name="material_hour_24h_suffix">%1$s ساعة</string>
+    <string name="material_hour_selection">تحديد الساعة</string>
+    <string name="material_hour_suffix">الساعة %1$s</string>
+    <string name="material_minute_selection">تحديد الدقائق</string>
+    <string name="material_minute_suffix">%1$s دقيقة</string>
+    <string name="material_timepicker_am">صباحًا</string>
+    <string name="material_timepicker_clock_mode_description">يُرجى التبديل إلى وضع الساعة لإدخال الوقت.</string>
+    <string name="material_timepicker_hour">الساعة</string>
+    <string name="material_timepicker_minute">دقيقة</string>
+    <string name="material_timepicker_pm">مساءً</string>
+    <string name="material_timepicker_select_time">اختيار الوقت</string>
+    <string name="material_timepicker_text_input_mode_description">يُرجى التبديل إلى وضع إدخال النص لإدخال الوقت.</string>
+    <string name="max_stories_is_10">الحد الأقصى لعدد القصص التي يمكن تحديدها هو 10.</string>
+    <string name="minimum_comment_is_10">الحد الأدنى لطلب التعليقات هو 10!</string>
+    <string name="more">المزيد</string>
+    <string name="more_info">مزيد من المعلومات</string>
+    <string name="mtrl_badge_numberless_content_description">إشعار جديد</string>
+    <string name="mtrl_chip_close_icon_content_description">إزالة %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">يبلغ عدد الإشعارات الجديدة أكثر من %1$d.</string>
+    <string name="mtrl_picker_a11y_next_month">التغيير إلى الشهر التالي</string>
+    <string name="mtrl_picker_a11y_prev_month">التغيير إلى الشهر السابق</string>
+    <string name="mtrl_picker_announce_current_range_selection">اختيار تاريخ البدء: %1$s – اختيار تاريخ الانتهاء: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">الاختيار الحالي: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">بلا</string>
+    <string name="mtrl_picker_cancel">إلغاء</string>
+    <string name="mtrl_picker_confirm">حسنًا</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">يُرجى اختيار تاريخ.</string>
+    <string name="mtrl_picker_date_header_unselected">التاريخ المحدَّد</string>
+    <string name="mtrl_picker_day_of_week_column_header">عمود الأيام: %1$s</string>
+    <string name="mtrl_picker_end_date_description">تاريخ الانتهاء: %1$s</string>
+    <string name="mtrl_picker_invalid_format">التنسيق غير صالح</string>
+    <string name="mtrl_picker_invalid_format_example">مثال: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">استخدام: %1$s</string>
+    <string name="mtrl_picker_invalid_range">النطاق غير صالح</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">الانتقال إلى السنة الحالية %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">التنقل إلى العام %1$d</string>
+    <string name="mtrl_picker_out_of_range">خارج النطاق: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">تاريخ البدء – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – تاريخ الانتهاء</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">يُرجى اختيار نطاق زمني.</string>
+    <string name="mtrl_picker_range_header_unselected">تاريخ البدء - تاريخ الانتهاء</string>
+    <string name="mtrl_picker_save">حفظ</string>
+    <string name="mtrl_picker_start_date_description">تاريخ البدء: %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">التاريخ</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">تاريخ الانتهاء</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">تاريخ البدء</string>
+    <string name="mtrl_picker_text_input_day_abbr">ي</string>
+    <string name="mtrl_picker_text_input_month_abbr">ش</string>
+    <string name="mtrl_picker_text_input_year_abbr">س</string>
+    <string name="mtrl_picker_today_description">اليوم %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">التبديل إلى وضع \"الإدخال في التقويم\"</string>
+    <string name="mtrl_picker_toggle_to_day_selection">يمكنك النقر للتبديل إلى عرض \"تقويم Google\".</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">التبديل إلى وضع \"إدخال النص\"</string>
+    <string name="mtrl_picker_toggle_to_year_selection">يمكنك النقر للتبديل إلى عرض السنة.</string>
+    <string name="mtrl_timepicker_cancel">إلغاء</string>
+    <string name="mtrl_timepicker_confirm">حسنًا</string>
+    <string name="my_comments">تعليقاتي</string>
+    <string name="no_comments_have_been_selected">لم يتم تحديد أي تعليقات</string>
+    <string name="no_faq_found">لم يتم العثور على أسئلة شائعة!</string>
+    <string name="no_install_found">لم يتم العثور على أي مهام.</string>
+    <string name="no_order_found">لم يتم العثور على أي طلب!</string>
+    <string name="no_saved_accounts">لا توجد حسابات محفوظة...</string>
+    <string name="no_send_order">لا، أرسل الطلب</string>
+    <string name="notification_permission">السماح بعرض الإشعارات</string>
+    <string name="notification_permission_des">"يتطلب التطبيق الوصول إلى الإشعارات
+نستخدم هذا الوصول إلى:&lt;br>&lt;br>1- إرسال إشعار عند جمع العملات&lt;br>&lt;br>2- إرسال إشعارات حول إعلانات التطبيق المهمة وأكواد الهدايا النشطة&lt;br>&lt;br>هل تمنح هذا الإذن للمتابع الأعلى؟"</string>
+    <string name="ok">موافق</string>
+    <string name="one_post_uploaded">تم تحميل منشور واحد بنجاح.</string>
+    <string name="open_instagram">افتح Instagram</string>
+    <string name="order_comments">طلب التعليقات</string>
+    <string name="order_likes">طلب الإعجابات</string>
+    <string name="partial">جزئي</string>
+    <string name="password_toggle_content_description">عرض كلمة المرور</string>
+    <string name="paste_coupon_here">الصق القسيمة هنا</string>
+    <string name="pause">إيقاف مؤقت</string>
+    <string name="pending">معلق</string>
+    <string name="please_try_again">يرجى المحاولة مرة أخرى.</string>
+    <string name="please_wait_a_few_seconds">يرجى الانتظار بضع ثوانٍ...</string>
+    <string name="post_not_found">لم يتم العثور على الوظيفة المطلوبة!</string>
+    <string name="posts">المشاركات</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="private_">خاص</string>
+    <string name="profile_dont_have_story">لا يحتوي هذا الملف الشخصي على قصة</string>
+    <string name="profile_error_des">"عزيزي المستخدم، لمواصلة نشاطك في المتابعة الأعلى، تحتاج إلى تحميل صورة ملفك الشخصي على Instagram.
+يمكنك تغيير ملفك الشخصي بنقرة واحدة."</string>
+    <string name="profile_warning">يجب عليك تحميل ملفك الشخصي على Instagram</string>
+    <string name="public_">عام</string>
+    <string name="question_symbol">\?</string>
+    <string name="recommend_friends_to_install_this_app_and_share_your_referral_code">أوصي أصدقاءك بتثبيت هذا التطبيق ومشاركة رمز الإحالة الخاص بك</string>
+    <string name="ref_code_copied_to_clipboard">تم نسخ رمز الإحالة إلى الحافظة</string>
+    <string name="referral_statistic">إحصائيات الإحالة</string>
+    <string name="repair_des">يتم ترقية الخادم وسنعود خلال بضع دقائق</string>
+    <string name="repair_mode">وضع الإصلاح</string>
+    <string name="request_comment">طلب تعليق</string>
+    <string name="request_like">طلب إعجاب</string>
+    <string name="request_seen_story">طلب مشاهدة القصة</string>
+    <string name="resolve">حل</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="save_account">حفظ الحساب</string>
+    <string name="search_menu_title">البحث</string>
+    <string name="security_code_not_valid">رمز الحماية غير صالح!</string>
+    <string name="select_post_by_link">الحصول على آخر مع الرابط</string>
+    <string name="select_target">حدد الهدف</string>
+    <string name="select_the_desired_stories">حدد القصص المطلوبة</string>
+    <string name="selected">محدد</string>
+    <string name="send_6_posts">إرسال 6 منشورات</string>
+    <string name="server_error">خطأ في الخادم!</string>
+    <string name="server_problem_error">حدث خطأ أثناء الاتصال بالخادم! يُرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى.</string>
+    <string name="set_comment_order">تعيين ترتيب التعليق</string>
+    <string name="set_profile">تعيين الملف الشخصي</string>
+    <string name="settings">الإعدادات</string>
+    <string name="share_your_code_earn_crystals">شارك رمزك - اربح بلورات</string>
+    <string name="sign_in_get_started">تسجيل الدخول للبدء</string>
+    <string name="sign_in_with_instagram">تسجيل الدخول باستخدام Instagram</string>
+    <string name="start">بدء</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stop_st">إيقاف</string>
+    <string name="submit">يُقدِّم</string>
+    <string name="success">تم النجاح</string>
+    <string name="support_contact_us">الدعم / اتصل بنا</string>
+    <string name="tasks">المهام</string>
+    <string name="telegram_channel">قناة تيليجرام</string>
+    <string name="telegram_support">دعم تيليجرام</string>
+    <string name="this_account_is_private">هذا الحساب &lt;b>خاص&lt;/b>.&lt;br>لا يمكن تقديم طلبات لحسابات خاصة</string>
+    <string name="threads_follower">متابع Threads</string>
+    <string name="threads_followers_for">متابعي Threads</string>
+    <string name="two_factor_error">تم تمكين التحقق بخطوتين لحسابك، يجب عليك تعطيل هذا القسم للدخول إلى التطبيق</string>
+    <string name="type_ref_code_or_promocode">اكتب رمز مرجعي أو رمز ترويجي</string>
+    <string name="undone">تم التراجع عنه</string>
+    <string name="unknown_error">خطأ غير معروف!</string>
+    <string name="unknown_error_des">حدث خطأ غير معروف. الرجاء المحاولة مرة أخرى</string>
+    <string name="update_available">التحديث متاح</string>
+    <string name="update_available_des">يتوفر إصدار جديد، يرجى تثبيته لتحسين الأداء</string>
+    <string name="upgrade">ترقية الحساب</string>
+    <string name="upgrade_your_account">قم بترقية حسابك</string>
+    <string name="upload">تحميل</string>
+    <string name="upload_at_least_6_posts_to_your_instagram_account">قم بتحميل 6 منشورات على الأقل إلى حسابك على Instagram</string>
+    <string name="upload_post">تحميل المنشور</string>
+    <string name="upload_post_des">هل تريد أن يقوم التطبيق بتحميل منشور لك على Instagram؟</string>
+    <string name="upload_post_warning">يجب عليك تحميل 6 منشورات إلى حسابك!</string>
+    <string name="upload_your_profile">تحميل ملفك الشخصي</string>
+    <string name="uploaded">تم تحميل الملف الشخصي بنجاح.</string>
+    <string name="username_not_found">لم يتم العثور على اسم المستخدم!</string>
+    <string name="warning">تحذير!</string>
+    <string name="write_a_bio_on_your_instagram_account">اكتب سيرة ذاتية على حسابك على Instagram</string>
+    <string name="yes_exit">نعم، العودة</string>
+    <string name="you_can_get_crystals_in_2_ways_n_n1_use_our_referral_program_and_share_your_code_to_other_people_n2_active_coupon_from_other_user_n_n1_crystal_1_coin_nbut_you_can_send_your_crystals_to_other_users">"يمكنك الحصول على البلورات بطريقتين
+
+1. استخدم برنامج الإحالة الخاص بنا وشارك الكود الخاص بك مع أشخاص آخرين
+2. قسيمة نشطة من مستخدم آخر
+
+1 بلورة = 1 عملة.
+ولكن يمكنك إرسال البلورات الخاصة بك إلى مستخدمين آخرين"</string>
+    <string name="you_did_not_find_your_answer">لم تجد إجابتك؟ 👇</string>
+    <string name="your_instagram_account_requires_authentication">يتطلب حسابك على Instagram المصادقة</string>
+    <string name="your_language">Your Language:</string>
+    <string name="your_referrals">إحالاتك</string>
+</resources>

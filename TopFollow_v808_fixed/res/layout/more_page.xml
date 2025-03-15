@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/more_lyt" android:padding="@dimen/_30sdp" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_6sdp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/_6sdp" app:cardElevation="@dimen/_5sdp" app:cardMaxElevation="@dimen/_5sdp" style="@style/ShadowCardViewNonRadios">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/daily_bonus_bt" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_8sdp" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/_36sdp" android:layout_height="@dimen/_36sdp" app:srcCompat="@drawable/ic_daily_bonus" />
+                <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_12sdp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/daily_bonus" android:layout_weight="1.0" android:layout_marginStart="@dimen/_12sdp" android:layout_marginEnd="@dimen/_12sdp" style="@style/TextViewFontLight" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_6sdp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/_6sdp" app:cardElevation="@dimen/_5sdp" app:cardMaxElevation="@dimen/_5sdp" style="@style/ShadowCardViewNonRadios">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/codes_bt" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_8sdp" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/_36sdp" android:layout_height="@dimen/_36sdp" app:srcCompat="@drawable/ic_invite_friends" />
+                <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_12sdp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/codes" android:layout_weight="1.0" android:layout_marginStart="@dimen/_12sdp" android:layout_marginEnd="@dimen/_12sdp" style="@style/TextViewFontLight" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_6sdp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/_6sdp" app:cardElevation="@dimen/_5sdp" app:cardMaxElevation="@dimen/_5sdp" style="@style/ShadowCardViewNonRadios">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/coupons_bt" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_8sdp" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/_36sdp" android:layout_height="@dimen/_36sdp" app:srcCompat="@drawable/ic_coupons" />
+                <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_12sdp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/coupons" android:layout_weight="1.0" android:layout_marginStart="@dimen/_12sdp" android:layout_marginEnd="@dimen/_12sdp" style="@style/TextViewFontLight" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/seen_recyclerView" android:paddingTop="@dimen/_10sdp" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</FrameLayout>

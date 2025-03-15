@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_4sdp" android:layoutDirection="ltr" app:cardBackgroundColor="@color/white" app:cardCornerRadius="9.0dip" app:cardElevation="@dimen/_4sdp" app:cardMaxElevation="@dimen/_4sdp" style="@style/ShadowCardViewNonRadios"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="4.0dip" app:cardBackgroundColor="@color/white" app:cardCornerRadius="8.0dip" app:cardElevation="1.0dip" app:cardMaxElevation="1.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageView" android:layout_width="fill_parent" android:layout_height="@dimen/_110sdp" android:scaleType="centerCrop" />
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_10sdp">
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.google.android.material.card.MaterialCardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_1sdp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/_4sdp" app:cardElevation="1.0dip" app:cardMaxElevation="1.0dip">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="@dimen/_3sdp" android:paddingTop="@dimen/_3sdp" android:paddingRight="@dimen/_3sdp" android:paddingBottom="@dimen/_3sdp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/_15sdp" android:layout_height="@dimen/_15sdp" android:layout_marginRight="3.0dip" app:srcCompat="@drawable/ic_likes" app:tint="#ffb206ee" />
+                        <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_8sdp" android:textColor="@color/black" android:id="@id/like_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" style="@style/TextViewFontLight" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.google.android.material.card.MaterialCardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_1sdp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/_4sdp" app:cardElevation="1.0dip" app:cardMaxElevation="1.0dip">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="@dimen/_3sdp" android:paddingTop="@dimen/_3sdp" android:paddingRight="@dimen/_3sdp" android:paddingBottom="@dimen/_3sdp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <androidx.appcompat.widget.AppCompatImageView android:padding="2.0dip" android:layout_width="@dimen/_15sdp" android:layout_height="@dimen/_15sdp" android:layout_marginRight="3.0dip" app:srcCompat="@drawable/ic_comment" app:tint="#ffb206ee" />
+                        <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_8sdp" android:textColor="@color/black" android:id="@id/comment_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" style="@style/TextViewFontLight" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</com.google.android.material.card.MaterialCardView>

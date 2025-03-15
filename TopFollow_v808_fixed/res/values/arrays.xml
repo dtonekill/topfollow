@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bio_text">
+        <item>All our dreams can come true, if we have the courage to pursue them.🥰🥰🥰</item>
+        <item>The secret of getting ahead is getting started.🤩🤩</item>
+        <item>The best time to plant a tree was 20 years ago. The second best time is now.🤜🤜</item>
+        <item>It’s hard to beat a person who never gives up.😀</item>
+        <item>Your passion is waiting for your courage to catch up.😉</item>
+        <item>Magic is believing in yourself. If you can make that happen, you can make anything happen.</item>
+        <item>If something is important enough, even if the odds are stacked against you, you should still do it.</item>
+        <item>Hold the vision, trust the process.</item>
+        <item>Don’t be afraid to give up the good to go for the great.</item>
+        <item>People who wonder if the glass is half empty or full miss the point. The glass is refillable.</item>
+        <item>One day or day one. You decide.</item>
+        <item>No one is to blame for your future situation but yourself. If you want to be successful, then become ‘Successful.</item>
+        <item>Things may come to those who wait, but only the things left by those who hustle.</item>
+        <item>Everything comes to him who hustles while he waits.</item>
+        <item>Invest in your dreams. Grind now. Shine later.</item>
+        <item>Without hustle, talent will only carry you so far.</item>
+        <item>Work like there is someone working 24 hours a day to take it away from you.</item>
+        <item>We are what we repeatedly do. Excellence, then, is not an act, but a habit.</item>
+        <item>If you’re offered a seat on a rocket ship, don’t ask what seat! Just get on.👌</item>
+        <item>Very often, a change of self is needed more than a change of scene👊</item>
+        <item>The hard days are what make you stronger.👍</item>
+        <item>If you believe it’ll work out, you’ll see opportunities. If you don’t believe it’ll work out, you’ll see obstacles.✌</item>
+        <item>Keep your eyes on the stars, and your feet on the ground.💪</item>
+        <item>You can waste your lives drawing lines. Or you can live your life crossing them.👑</item>
+        <item>ou’ve got to get up every morning with determination if you’re going to go to bed with satisfaction.💪</item>
+        <item>I now tried a new hypothesis: It was possible that I was more in charge of my happiness than I was allowing myself to be.✌</item>
+        <item>In a gentle way, you can shake the world.👌</item>
+        <item>If opportunity doesn’t knock, build a door.😀</item>
+        <item>Don’t be pushed around by the fears in your mind. Be led by the dreams in your heart.😉</item>
+        <item>Work hard in silence, let your success be the noise.👊</item>
+        <item>If everything seems to be under control, you’re not going fast enough.👑</item>
+        <item>Opportunity is missed by most people because it is dressed in overalls and looks like work.😊</item>
+        <item>The only difference between ordinary and extraordinary is that little extra.✌</item>
+        <item>The best way to appreciate your job is to imagine yourself without one.👌</item>
+        <item>Never stop doing your best just because someone doesn’t give you credit.👍</item>
+        <item>Sometimes when you’re in a dark place you think you’ve been buried but you’ve actually been planted.😀</item>
+        <item>Don’t limit your challenges. Challenge your limits.😉</item>
+        <item>Whenever you find yourself doubting how far you can go, just remember how far you have come.💪</item>
+        <item>Good. Better. Best. Never let it rest. ’Til your good is better and your better is best👌</item>
+        <item>Start where you are. Use what you have. Do what you can.👊</item>
+        <item>Dreams don’t work unless you do.👑</item>
+        <item>Turn your wounds into wisdom.💪</item>
+        <item>When you have a dream, you’ve got to grab it and never let go.👍</item>
+        <item>Nothing is impossible. The word itself says ’I’m possible!’😊</item>
+        <item>There is nothing impossible to they who will try.👌</item>
+        <item>The bad news is time flies. The good news is you’re the pilot.👑</item>
+        <item>Life has got all those twists and turns. You’ve got to hold on tight and off you go.💪</item>
+        <item>Keep your face always toward the sunshine, and shadows will fall behind you.👍</item>
+        <item>Success is not final, failure is not fatal: it is the courage to continue that counts.✌</item>
+        <item>You define your own life. Don’t let other people write your script.👌</item>
+        <item>You are never too old to set another goal or to dream a new dream.😉</item>
+        <item>At the end of the day, whether or not those people are comfortable with how you’re living your life doesn’t matter. What matters is whether you’re comfortable with it.👊</item>
+        <item>Spread love everywhere you go.👑</item>
+        <item>You can be everything. You can be the infinite amount of things that people are.😉</item>
+        <item>What lies behind you and what lies in front of you, pales in comparison to what lies inside of you. 👌</item>
+        <item>Belief creates the actual fact.👊</item>
+        <item>No matter what people tell you, words and ideas can change the world.👑</item>
+        <item>It is during our darkest moments that we must focus to see the light.🦾</item>
+        <item>Believe you can and you’re halfway there💪</item>
+        <item>Weaknesses are just strengths in the wrong environment.👍</item>
+        <item>Just don’t give up trying to do what you really want to do. Where there is love and inspiration, I don’t think you can go wrong.✌</item>
+        <item>Silence is the last thing the world will ever hear from me.👌</item>
+        <item>In a gentle way, you can shake the world.😊</item>
+        <item>Learning how to be still, to really be still and let life happen—that stillness becomes a radiance.🦾</item>
+        <item>All you need is the plan, the road map, and the courage to press on to your destination.👑</item>
+        <item>Try to be a rainbow in someone’s cloud.✌</item>
+    </string-array>
+    <string-array name="nav_chains">
+        <item>SelfFragment:self_profile:2:main_profile::,ProfileMediaTabFragment:self_profile:3:button::,EditProfileFragment:edit_profile:8:button::,TRUNCATEDx1,CategorySearchFragment:choose_category_with_search:10:button::,AccountTypeSelectionV2Fragment:account_type_selection_v2_fragment:11:button::,EditBusinessProfileFragment:edit_business_profile:12:button::,ConnectFBPageFragment:connect_fb_page:13:button::,OnboardingCheckListFragment:onboarding_checklist_fragment:14:button::,SuggestBusinessFragment:suggest_business_fragment:15:button::,SuggestBusinessFragment:suggest_business_fragment:7:button::</item>
+        <item>ProfileMediaTabFragment:self_profile:6:main_profile::,OnboardingCheckListFragment:onboarding_checklist_fragment:7:button::,SuggestBusinessFragment:suggest_business_fragment:8:button::</item>
+        <item>SelfFragment:self_profile:2:main_profile::,ProfileMediaTabFragment:self_profile:3:button::,EditProfileFragment:edit_profile:8:button::,TRUNCATEDx1,CategorySearchFragment:choose_category_with_search:10:button::,AccountTypeSelectionV2Fragment:account_type_selection_v2_fragment:11:button::,EditBusinessProfileFragment:edit_business_profile:12:button::,ConnectFBPageFragment:connect_fb_page:13:button::,OnboardingCheckListFragment:onboarding_checklist_fragment:14:button::,SuggestBusinessFragment:suggest_business_fragment:15:button::,SuggestBusinessFragment:suggest_business_fragment:9:button::</item>
+        <item>ProfileMediaTabFragment:self_profile:10:main_profile::,OnboardingCheckListFragment:onboarding_checklist_fragment:11:button::,SuggestBusinessFragment:suggest_business_fragment:12:button::</item>
+        <item>SelfFragment:self_profile:2:main_profile::,ProfileMediaTabFragment:self_profile:3:button::,EditProfileFragment:edit_profile:8:button::,TRUNCATEDx1,CategorySearchFragment:choose_category_with_search:10:button::,AccountTypeSelectionV2Fragment:account_type_selection_v2_fragment:11:button::,EditBusinessProfileFragment:edit_business_profile:12:button::,ConnectFBPageFragment:connect_fb_page:13:button::,OnboardingCheckListFragment:onboarding_checklist_fragment:14:button::,SuggestBusinessFragment:suggest_business_fragment:15:button::,SuggestBusinessFragment:suggest_business_fragment:11:button::</item>
+        <item>ProfileMediaTabFragment:self_profile:12:main_profile::,OnboardingCheckListFragment:onboarding_checklist_fragment:13:button::,SuggestBusinessFragment:suggest_business_fragment:14:button::</item>
+    </string-array>
+</resources>

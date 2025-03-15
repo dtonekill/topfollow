@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/language_lyt" android:background="?selectableItemBackground" android:paddingLeft="@dimen/_12sdp" android:paddingTop="@dimen/_4sdp" android:paddingRight="@dimen/_12sdp" android:paddingBottom="@dimen/_4sdp" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/flag_iv" android:padding="0.0dip" android:layout_width="@dimen/_24sdp" android:layout_height="@dimen/_24sdp" android:layout_margin="@dimen/_5sdp" app:srcCompat="@drawable/ic_flag_uk" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_11sdp" android:textStyle="bold" android:textColor="@color/gray5" android:id="@id/language_title_tv" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_3sdp" android:layout_marginRight="@dimen/_24sdp" android:text="English" android:layout_weight="1.0" style="@style/TextViewFontBold" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@id/language_cb" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:id="@id/line_language" android:background="@color/gray1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/_10sdp" android:layout_marginTop="@dimen/_1sdp" android:layout_marginRight="@dimen/_10sdp" android:layout_marginBottom="@dimen/_1sdp" />
+</LinearLayout>

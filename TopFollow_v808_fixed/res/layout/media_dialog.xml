@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_18sdp" android:layoutDirection="ltr" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/_6sdp" app:cardElevation="0.0dip" app:cardMaxElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/media_dialog_iv" android:layout_width="fill_parent" android:layout_height="@dimen/_200sdp" android:scaleType="centerCrop" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_14sdp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:layout_marginBottom="@dimen/_4sdp" android:text="@string/choose_your_request_type" style="@style/TextViewFontLight" />
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/_6sdp" android:paddingTop="@dimen/_16sdp" android:paddingRight="@dimen/_6sdp" android:paddingBottom="@dimen/_12sdp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_5sdp" app:cardBackgroundColor="@color/button_color" app:cardCornerRadius="@dimen/_6sdp" app:cardElevation="@dimen/_3sdp" app:cardMaxElevation="@dimen/_3sdp" style="@style/CardViewShadowYellow">
+                    <com.google.android.material.textview.MaterialTextView android:theme="@style/SelectableItemBackground" android:textSize="@dimen/_12sdp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/request_like_bt" android:background="?selectableItemBackgroundBorderless" android:paddingTop="@dimen/_10sdp" android:paddingBottom="@dimen/_10sdp" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/request_like" style="@style/TextViewFontLight" />
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_5sdp" app:cardBackgroundColor="@color/green" app:cardCornerRadius="@dimen/_6sdp" app:cardElevation="@dimen/_3sdp" app:cardMaxElevation="@dimen/_3sdp" style="@style/CardViewShadowGreen">
+                    <com.google.android.material.textview.MaterialTextView android:theme="@style/SelectableItemBackgroundGreen" android:textSize="@dimen/_12sdp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/request_comment_bt" android:background="?selectableItemBackgroundBorderless" android:paddingTop="@dimen/_10sdp" android:paddingBottom="@dimen/_10sdp" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/request_comment" style="@style/TextViewFontLight" />
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

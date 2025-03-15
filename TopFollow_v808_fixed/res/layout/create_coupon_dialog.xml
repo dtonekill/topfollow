@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_20sdp" android:layout_marginTop="@dimen/_20sdp" android:layout_marginRight="@dimen/_20sdp" android:layout_marginBottom="@dimen/_100sdp" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/_6sdp" app:cardElevation="0.0dip" app:cardMaxElevation="0.0dip" app:layout_constraintTop_toBottomOf="@id/image_title">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/_16sdp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_16sdp" android:textStyle="bold" android:textColor="@color/gray9" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_28sdp" android:layout_marginBottom="@dimen/_2sdp" android:text="@string/create_new_coupon" style="@style/TextViewFontBold" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_10sdp">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/_17sdp" android:layout_height="@dimen/_17sdp" app:srcCompat="@drawable/ic_gem" />
+                <com.google.android.material.textview.MaterialTextView android:textColor="@color/gray8" android:id="@id/crystal_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2000 Crystal left" android:layout_marginStart="@dimen/_4sdp" style="@style/TextViewFontLight" />
+            </LinearLayout>
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputLayout android:textColorHint="#ffc1c2c4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/enter_coupon_crystals" style="@style/TaskSettingsTextInputLayoutStyle">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@id/gem_et" android:paddingTop="@dimen/_15sdp" android:paddingBottom="@dimen/_15sdp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:maxLength="5" android:inputType="number" style="@style/TextViewFontBold" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <ProgressBar android:layout_gravity="end|center" android:id="@id/progressBar_coupon" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="@dimen/_15sdp" style="?android:progressBarStyle" />
+            </FrameLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/_8sdp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp">
+                    <com.google.android.material.card.MaterialCardView android:id="@id/active_card" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_3sdp" android:layout_marginBottom="@dimen/_3sdp" app:cardBackgroundColor="@color/button_color" app:cardCornerRadius="@dimen/_6sdp" app:cardElevation="2.0dip" app:cardMaxElevation="2.0dip">
+                        <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_11sdp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/create_bt" android:background="?selectableItemBackground" android:paddingLeft="@dimen/_23sdp" android:paddingTop="@dimen/_8sdp" android:paddingRight="@dimen/_23sdp" android:paddingBottom="@dimen/_8sdp" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/create" style="@style/TextViewFontBold" />
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_11sdp" android:textStyle="bold" android:textColor="@color/gray4" android:gravity="center" android:layout_gravity="center" android:id="@id/cancel_bt" android:paddingLeft="@dimen/_15sdp" android:paddingTop="@dimen/_6sdp" android:paddingRight="@dimen/_15sdp" android:paddingBottom="@dimen/_6sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel_st" android:layout_marginStart="@dimen/_15sdp" style="@style/TextViewFontBold" />
+                </LinearLayout>
+                <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/image_title" android:layout_width="@dimen/_70sdp" android:layout_height="@dimen/_70sdp" android:src="@drawable/ic_coupon_activation" android:translationY="@dimen/_35sdp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

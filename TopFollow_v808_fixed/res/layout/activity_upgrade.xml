@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/history_swipe" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/toolbar_background" android:paddingTop="@dimen/_10sdp" android:paddingBottom="@dimen/_5sdp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:theme="@style/RippleColorTheme" android:id="@id/back_bt" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_8sdp" android:focusable="true" android:clickable="true" android:layout_width="@dimen/_34sdp" android:layout_height="@dimen/_34sdp" android:layout_marginLeft="@dimen/_6sdp" android:layout_marginRight="@dimen/_6sdp" app:srcCompat="@drawable/ic_back" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_13sdp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_12sdp" android:text="@string/upgrade" android:layout_weight="1.0" style="@style/TextViewFontBold" />
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:paddingLeft="@dimen/_8sdp" android:paddingTop="@dimen/_12sdp" android:paddingRight="@dimen/_8sdp" android:paddingBottom="@dimen/_12sdp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/_60sdp" android:layout_height="@dimen/_60sdp" app:srcCompat="@drawable/ic_vip" app:tint="@color/coin" />
+            <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_17sdp" android:textStyle="bold" android:textColor="@color/coin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_12sdp" android:text="@string/upgrade_your_account" style="@style/TextViewFontBold" />
+            <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_13sdp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:id="@id/des_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" style="@style/TextViewFontBold" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp">
+                <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_6sdp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/_8sdp" app:cardElevation="@dimen/_3sdp" app:cardMaxElevation="@dimen/_3sdp" style="@style/ShadowCardViewNonRadios">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:padding="@dimen/_5sdp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <FrameLayout android:layout_width="@dimen/_42sdp" android:layout_height="@dimen/_42sdp">
+                                <androidx.appcompat.widget.AppCompatImageView android:layout_width="fill_parent" android:layout_height="fill_parent" app:srcCompat="@drawable/circle_gray" />
+                                <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_9sdp" android:textStyle="bold" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="6\nPosts" style="@style/TextViewFontLight" />
+                            </FrameLayout>
+                            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/_6sdp" android:paddingRight="@dimen/_1sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                    <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_13sdp" android:textStyle="bold" android:textColor="@color/gray8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/send_6_posts" android:layout_weight="1.0" style="@style/TextViewFontLight" />
+                                </LinearLayout>
+                                <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_10sdp" android:textColor="@color/gray5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/upload_at_least_6_posts_to_your_instagram_account" style="@style/TextViewFontLight" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/posts_lyt" android:background="@color/red" android:layout_width="@dimen/_46sdp" android:layout_height="fill_parent">
+                            <androidx.appcompat.widget.AppCompatImageView android:id="@id/posts_iv" android:layout_width="@dimen/_19sdp" android:layout_height="@dimen/_19sdp" app:srcCompat="@drawable/ic_close2" app:tint="@color/white" />
+                            <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_10sdp" android:textColor="@color/white" android:id="@id/posts_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/undone" style="@style/TextViewFontLight" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_6sdp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/_8sdp" app:cardElevation="@dimen/_3sdp" app:cardMaxElevation="@dimen/_3sdp" style="@style/ShadowCardViewNonRadios">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:padding="@dimen/_5sdp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <FrameLayout android:layout_width="@dimen/_42sdp" android:layout_height="@dimen/_42sdp">
+                                <androidx.appcompat.widget.AppCompatImageView android:layout_width="fill_parent" android:layout_height="fill_parent" app:srcCompat="@drawable/circle_gray" />
+                                <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_9sdp" android:textStyle="bold" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Upload\nProfile" style="@style/TextViewFontLight" />
+                            </FrameLayout>
+                            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/_6sdp" android:paddingRight="@dimen/_1sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_13sdp" android:textStyle="bold" android:textColor="@color/gray8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/upload_your_profile" android:layout_weight="1.0" style="@style/TextViewFontLight" />
+                                <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_10sdp" android:textColor="@color/gray5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add_a_photo_to_your_instagram_profile" style="@style/TextViewFontLight" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/profile_lyt" android:background="@color/red" android:layout_width="@dimen/_46sdp" android:layout_height="fill_parent">
+                            <androidx.appcompat.widget.AppCompatImageView android:id="@id/profile_iv" android:layout_width="@dimen/_19sdp" android:layout_height="@dimen/_19sdp" app:srcCompat="@drawable/ic_close2" app:tint="@color/white" />
+                            <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_10sdp" android:textColor="@color/white" android:id="@id/profile_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/undone" style="@style/TextViewFontLight" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_6sdp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/_8sdp" app:cardElevation="@dimen/_3sdp" app:cardMaxElevation="@dimen/_3sdp" style="@style/ShadowCardViewNonRadios">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:padding="@dimen/_5sdp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <FrameLayout android:layout_width="@dimen/_42sdp" android:layout_height="@dimen/_42sdp">
+                                <androidx.appcompat.widget.AppCompatImageView android:layout_width="fill_parent" android:layout_height="fill_parent" app:srcCompat="@drawable/circle_gray" />
+                                <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_9sdp" android:textStyle="bold" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add\nBio" style="@style/TextViewFontLight" />
+                            </FrameLayout>
+                            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/_6sdp" android:paddingRight="@dimen/_1sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_13sdp" android:textStyle="bold" android:textColor="@color/gray8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_bio_to_instagram" android:layout_weight="1.0" style="@style/TextViewFontLight" />
+                                <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_10sdp" android:textColor="@color/gray5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/write_a_bio_on_your_instagram_account" style="@style/TextViewFontLight" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/bio_lyt" android:background="@color/red" android:layout_width="@dimen/_46sdp" android:layout_height="fill_parent">
+                            <androidx.appcompat.widget.AppCompatImageView android:id="@id/bio_iv" android:layout_width="@dimen/_19sdp" android:layout_height="@dimen/_19sdp" app:srcCompat="@drawable/ic_close2" app:tint="@color/white" />
+                            <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_10sdp" android:textColor="@color/white" android:id="@id/bio_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/undone" style="@style/TextViewFontLight" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+            <com.google.android.material.card.MaterialCardView android:layout_gravity="center" android:id="@id/upgrade_card_bt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_15sdp" android:layout_marginBottom="@dimen/_12sdp" app:cardBackgroundColor="@color/button_color" app:cardCornerRadius="@dimen/_8sdp" app:cardElevation="@dimen/_3sdp" app:cardMaxElevation="@dimen/_3sdp">
+                <com.google.android.material.textview.MaterialTextView android:theme="@style/RippleColorTheme" android:textSize="@dimen/_12sdp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/upgrade_bt" android:background="?selectableItemBackgroundBorderless" android:paddingTop="@dimen/_12sdp" android:paddingBottom="@dimen/_12sdp" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/upgrade" android:paddingStart="@dimen/_57sdp" android:paddingEnd="@dimen/_57sdp" style="@style/TextViewFontLight" />
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

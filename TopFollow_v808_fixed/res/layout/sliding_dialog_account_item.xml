@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_5sdp" android:layoutDirection="ltr" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/_6sdp" app:cardElevation="@dimen/_3sdp" app:cardMaxElevation="@dimen/_3sdp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/account_bt" android:background="?selectableItemBackgroundBorderless" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView android:layout_gravity="center" android:id="@id/ac_profile_img" android:padding="@dimen/_6sdp" android:layout_width="@dimen/_48sdp" android:layout_height="@dimen/_48sdp" app:civ_border_color="@color/purple_900" app:civ_border_width="1.0dip" />
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center|right|top" android:id="@id/active_account_iv" android:background="@drawable/green_point" android:layout_width="@dimen/_10sdp" android:layout_height="@dimen/_10sdp" android:layout_marginTop="@dimen/_8sdp" android:layout_marginRight="@dimen/_8sdp" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_5sdp" android:layout_marginRight="@dimen/_5sdp" android:layout_weight="1.0">
+            <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_12sdp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/username_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="username" android:singleLine="true" android:layout_weight="1.0" android:fontFamily="@font/top_bold" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/trash_bt" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_6sdp" android:focusable="true" android:clickable="true" android:layout_width="@dimen/_30sdp" android:layout_height="@dimen/_30sdp" android:layout_marginRight="@dimen/_8sdp" app:srcCompat="@drawable/ic_new_design_clear" app:tint="@color/gray6" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

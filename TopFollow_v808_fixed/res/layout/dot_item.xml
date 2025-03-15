@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatImageView android:id="@id/dot_iv" android:layout_width="@dimen/_12sdp" android:layout_height="@dimen/_12sdp" android:layout_margin="@dimen/_3sdp" app:srcCompat="@drawable/dot_drawable"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

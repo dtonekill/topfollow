@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/toolbar_background" android:paddingTop="@dimen/_10sdp" android:paddingBottom="@dimen/_5sdp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:theme="@style/RippleColorTheme" android:id="@id/back_bt" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_8sdp" android:focusable="true" android:clickable="true" android:layout_width="@dimen/_34sdp" android:layout_height="@dimen/_34sdp" android:layout_marginLeft="@dimen/_6sdp" android:layout_marginRight="@dimen/_6sdp" app:srcCompat="@drawable/ic_back" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_13sdp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_12sdp" android:text="@string/coupons" android:layout_weight="1.0" style="@style/TextViewFontBold" />
+        <com.google.android.material.card.MaterialCardView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_marginStart="@dimen/_8sdp" android:layout_marginEnd="@dimen/_8sdp" app:cardBackgroundColor="#ffb375f8" app:cardCornerRadius="@dimen/_17sdp" app:cardElevation="1.0dip" app:cardMaxElevation="1.0dip">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:padding="@dimen/_4sdp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/_17sdp" android:layout_height="@dimen/_17sdp" app:srcCompat="@drawable/ic_gem" />
+                <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_11sdp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/gem_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_4sdp" android:layout_marginTop="2.0dip" android:layout_marginRight="@dimen/_4sdp" android:layout_marginBottom="2.0dip" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/coupon_recycler" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:spanCount="2" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/coupon_empty_lyt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/_31sdp" android:layout_height="@dimen/_31sdp" app:srcCompat="@drawable/ic_new_design_sad" />
+            <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_12sdp" android:textColor="#ff707070" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/here_is_empty" android:layout_marginStart="@dimen/_8sdp" style="@style/TextViewFontLight" />
+        </LinearLayout>
+        <ProgressBar android:layout_gravity="center" android:id="@id/coupon_progressbar" android:visibility="visible" android:layout_width="@dimen/_40sdp" android:layout_height="@dimen/_40sdp" style="?android:progressBarStyle" />
+        <LinearLayout android:layout_gravity="bottom|center|right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/_16sdp" android:layout_marginBottom="@dimen/_20sdp">
+            <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/coupons_add_bt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_5sdp" android:layout_marginTop="@dimen/_5sdp" android:layout_marginRight="@dimen/_5sdp" android:layout_marginBottom="@dimen/_18sdp" app:backgroundTint="@color/purple_900" app:elevation="@dimen/_2sdp" app:fabCustomSize="@dimen/_46sdp" app:maxImageSize="@dimen/_20sdp" app:srcCompat="@drawable/ic_coupon" />
+            <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/coupons_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_5sdp" app:backgroundTint="@color/button_color" app:elevation="@dimen/_2sdp" app:fabCustomSize="@dimen/_46sdp" app:maxImageSize="@dimen/_20sdp" app:srcCompat="@drawable/ic_add" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

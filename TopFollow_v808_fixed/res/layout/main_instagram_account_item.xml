@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:theme="@style/RippleColorThemePrimary" android:gravity="center" android:orientation="horizontal" android:id="@id/account_main_bt" android:background="?selectableItemBackground" android:paddingLeft="@dimen/_8sdp" android:paddingRight="@dimen/_8sdp" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="@dimen/_44sdp" android:layout_height="@dimen/_44sdp">
+            <de.hdodenhof.circleimageview.CircleImageView android:layout_gravity="center" android:id="@id/prof_iv" android:layout_width="@dimen/_35sdp" android:layout_height="@dimen/_35sdp" android:src="@drawable/ic_user_place_holder" app:civ_border_color="@color/colorPrimary" app:civ_border_width="@dimen/_1sdp" />
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="start|center|top" android:id="@id/vip_iv" android:layout_width="@dimen/_17sdp" android:layout_height="@dimen/_17sdp" android:rotation="-38.0" app:srcCompat="@drawable/ic_vip" app:tint="#ffffc107" />
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end|center|top" android:id="@id/active_account_iv" android:background="@drawable/green_point" android:layout_width="@dimen/_8sdp" android:layout_height="@dimen/_8sdp" android:layout_marginTop="@dimen/_5sdp" android:layout_marginEnd="@dimen/_5sdp" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/_6sdp" android:paddingRight="@dimen/_5sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_11sdp" android:textColor="@color/black" android:id="@id/username_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Username" android:fontFamily="@font/top_medium" />
+                <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/_17sdp" android:layout_height="@dimen/_17sdp" app:srcCompat="@drawable/ic_coin" />
+                <com.google.android.material.textview.MaterialTextView android:textColor="@color/black" android:id="@id/follow_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_5sdp" android:text="0" android:fontFamily="@font/top_light" />
+            </LinearLayout>
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/progress_horizontal_pb" android:layout_width="fill_parent" android:layout_height="@dimen/_8sdp" android:layout_marginTop="@dimen/_6sdp" android:indeterminate="true" app:trackCornerRadius="@dimen/_8sdp" />
+                <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_10sdp" android:textColor="@color/red" android:id="@id/error_tv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Your account requires login" />
+            </FrameLayout>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatImageView android:theme="@style/RippleColorThemePrimary" android:id="@id/delete_bt" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_4sdp" android:focusable="true" android:clickable="true" android:layout_width="@dimen/_30sdp" android:layout_height="@dimen/_30sdp" app:srcCompat="@drawable/ic_close" />
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/account_enable_sw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_3sdp" style="@style/DefaultSwitch" />
+    </LinearLayout>
+    <View android:background="@color/gray0" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/_42sdp" android:layout_marginTop="@dimen/_3sdp" android:layout_marginRight="@dimen/_42sdp" android:layout_marginBottom="@dimen/_3sdp" />
+</LinearLayout>

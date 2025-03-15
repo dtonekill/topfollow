@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/toolbar_background" android:paddingTop="@dimen/_10sdp" android:paddingBottom="@dimen/_5sdp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="locale">
+        <androidx.appcompat.widget.AppCompatImageView android:theme="@style/RippleColorTheme" android:id="@id/back_bt" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_8sdp" android:focusable="true" android:clickable="true" android:layout_width="@dimen/_34sdp" android:layout_height="@dimen/_34sdp" android:layout_marginLeft="@dimen/_6sdp" android:layout_marginRight="@dimen/_6sdp" app:srcCompat="@drawable/ic_back" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_13sdp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_12sdp" android:text="@string/like_order" android:layout_weight="1.0" style="@style/TextViewFontBold" />
+    </LinearLayout>
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_10sdp" app:cardCornerRadius="@dimen/_6sdp" style="@style/ShadowCardViewRadios">
+        <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_3sdp" app:cardCornerRadius="@dimen/_6sdp" app:cardElevation="0.0dip" app:cardMaxElevation="0.0dip">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/image_iv" android:layout_width="fill_parent" android:layout_height="@dimen/_170sdp" android:scaleType="centerCrop" />
+        </androidx.cardview.widget.CardView>
+        <com.google.android.material.card.MaterialCardView android:layout_gravity="start|bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_10sdp" android:layout_marginStart="@dimen/_12sdp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/_5sdp" app:cardElevation="@dimen/_2sdp" app:cardMaxElevation="@dimen/_2sdp">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="@dimen/_5sdp" android:paddingTop="@dimen/_4sdp" android:paddingRight="@dimen/_5sdp" android:paddingBottom="@dimen/_4sdp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/_15sdp" android:layout_height="@dimen/_15sdp" app:srcCompat="@drawable/ic_like" app:tint="#ffb206ee" />
+                <com.google.android.material.textview.MaterialTextView android:textColor="@color/gray9" android:id="@id/like_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="123" android:fontFamily="@font/top_light" android:layout_marginStart="@dimen/_5sdp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView android:layout_gravity="end|bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_10sdp" android:layout_marginEnd="@dimen/_12sdp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/_5sdp" app:cardElevation="@dimen/_2sdp" app:cardMaxElevation="@dimen/_2sdp">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="@dimen/_5sdp" android:paddingTop="@dimen/_4sdp" android:paddingRight="@dimen/_5sdp" android:paddingBottom="@dimen/_4sdp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:textColor="@color/gray9" android:id="@id/comment_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="123" android:fontFamily="@font/top_light" android:layout_marginEnd="@dimen/_5sdp" />
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/_14sdp" android:layout_height="@dimen/_14sdp" app:srcCompat="@drawable/ic_comment" app:tint="#ffb206ee" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </androidx.cardview.widget.CardView>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/like_recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

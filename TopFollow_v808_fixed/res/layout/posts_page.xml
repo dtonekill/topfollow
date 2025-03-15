@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.card.MaterialCardView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_12sdp" app:cardCornerRadius="@dimen/_6sdp" app:cardElevation="@dimen/_4sdp" app:cardMaxElevation="@dimen/_4sdp" style="@style/ShadowCardViewNonRadios">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/get_post_link_bt" android:background="?selectableItemBackgroundBorderless" android:paddingLeft="@dimen/_12sdp" android:paddingTop="@dimen/_3sdp" android:paddingRight="@dimen/_12sdp" android:paddingBottom="@dimen/_3sdp" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/_15sdp" android:layout_height="@dimen/_15sdp" android:src="@drawable/ic_link" android:tint="@color/colorSecondary" />
+                <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_11sdp" android:textStyle="bold" android:textColor="@color/colorSecondary" android:paddingLeft="@dimen/_6sdp" android:paddingTop="@dimen/_4sdp" android:paddingRight="@dimen/_6sdp" android:paddingBottom="@dimen/_4sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_post_by_link" style="@style/TextViewFontBold" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/media_recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:visibility="gone" android:layout_width="@dimen/_40sdp" android:layout_height="@dimen/_40sdp" style="?android:progressBarStyle" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/media_not_found_lyt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/_31sdp" android:layout_height="@dimen/_31sdp" app:srcCompat="@drawable/ic_new_design_sad" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_12sdp" android:textColor="#ff707070" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No media found!" android:layout_marginStart="@dimen/_8sdp" style="@style/TextViewFontLight" />
+    </LinearLayout>
+</FrameLayout>

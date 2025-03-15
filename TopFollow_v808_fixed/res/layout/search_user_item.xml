@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_3sdp" android:layoutDirection="ltr" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/_6sdp" app:cardElevation="@dimen/_1sdp" app:cardMaxElevation="@dimen/_1sdp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/account_bt" android:background="?selectableItemBackgroundBorderless" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView android:layout_gravity="center" android:id="@id/ac_profile_img" android:padding="@dimen/_4sdp" android:layout_width="@dimen/_40sdp" android:layout_height="@dimen/_40sdp" app:civ_border_color="@color/purple_900" app:civ_border_width="2.0dip" />
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_3sdp" android:layout_marginRight="@dimen/_1sdp" android:layout_weight="1.0">
+            <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_11sdp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/username_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="username" android:singleLine="true" android:layout_weight="1.0" android:fontFamily="@font/top_bold" />
+            <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_9sdp" android:textStyle="bold" android:textColor="@color/red" android:id="@id/private_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/_6sdp" android:text="Private" android:singleLine="true" style="@style/TextViewFontBold" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

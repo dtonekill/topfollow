@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:orientation="vertical" android:id="@id/history_swipe" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/toolbar_background" android:paddingTop="@dimen/_10sdp" android:paddingBottom="@dimen/_5sdp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:theme="@style/RippleColorTheme" android:id="@id/back_bt" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_8sdp" android:focusable="true" android:clickable="true" android:layout_width="@dimen/_34sdp" android:layout_height="@dimen/_34sdp" android:layout_marginLeft="@dimen/_6sdp" android:layout_marginRight="@dimen/_6sdp" app:srcCompat="@drawable/ic_back" />
+            <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_13sdp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_12sdp" android:text="@string/history" android:layout_weight="1.0" style="@style/TextViewFontBold" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/history_recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/_10sdp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:layout_width="@dimen/_40sdp" android:layout_height="@dimen/_40sdp" style="?android:progressBarStyle" />
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/tracking_empty_lyt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/_31sdp" android:layout_height="@dimen/_31sdp" app:srcCompat="@drawable/ic_new_design_sad" />
+                <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_12sdp" android:textColor="#ff707070" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_order_found" android:layout_marginStart="@dimen/_8sdp" style="@style/TextViewFontLight" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

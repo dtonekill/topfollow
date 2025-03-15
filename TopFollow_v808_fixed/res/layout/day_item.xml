@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:orientation="vertical" android:id="@id/day_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_3sdp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/_8sdp" app:cardElevation="@dimen/_5sdp" app:cardMaxElevation="@dimen/_5sdp" style="@style/ShadowCardViewNonRadios"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/day_line" android:paddingLeft="@dimen/_2sdp" android:paddingTop="@dimen/_10sdp" android:paddingRight="@dimen/_2sdp" android:paddingBottom="@dimen/_12sdp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.card.MaterialCardView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" app:cardBackgroundColor="#ffede0fc" app:cardCornerRadius="@dimen/_17sdp" app:cardElevation="1.0dip" app:cardMaxElevation="1.0dip">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:padding="@dimen/_4sdp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/_18sdp" android:layout_height="@dimen/_18sdp" app:srcCompat="@drawable/ic_coin" />
+                <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_11sdp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/coin_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_4sdp" android:layout_marginTop="2.0dip" android:layout_marginRight="@dimen/_4sdp" android:layout_marginBottom="2.0dip" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.textview.MaterialTextView android:textStyle="bold" android:textColor="@color/colorAccent" android:id="@id/day_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_7sdp" android:text="Day 1" android:fontFamily="@font/top_bold" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

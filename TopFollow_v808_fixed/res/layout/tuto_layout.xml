@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_11sdp" android:textColor="@color/white" android:gravity="center" android:id="@id/tuto_title_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_15sdp" android:layout_marginTop="@dimen/_34sdp" android:layout_marginRight="@dimen/_15sdp" android:text="Use to add more accounts work" style="@style/TextViewFontBold" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_15sdp">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/_35sdp" android:layout_height="@dimen/_35sdp" android:src="@drawable/ic_round_arrow_left" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/dot_recycler" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_18sdp" android:layout_marginRight="@dimen/_18sdp" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/_35sdp" android:layout_height="@dimen/_35sdp" android:src="@drawable/ic_round_arrow_right" />
+    </LinearLayout>
+</LinearLayout>
